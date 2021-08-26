@@ -97,6 +97,65 @@ export default {
     },
   ],
 
+  certifications: [
+    {
+      side: "left",
+      title: "The Bits and Bytes of Computer Networking",
+      date: "Apr 2021",
+      link: "https://www.coursera.org/account/accomplishments/verify/T32AB2GZLWA3",
+      organization: "coursera.org",
+    },
+    {
+      side: "right",
+      title: "Technical Support Fundamentals",
+      date: "Mar 2021",
+      link: "https://www.coursera.org/account/accomplishments/verify/N7P6D2DSVPTD",
+      organization: "coursera.org",
+    },
+    {
+      side: "left",
+      title: "Autodesk Fusion 360 Integrated CAD/CAM/CAE",
+      date: "Feb 2021",
+      link: "https://www.coursera.org/account/accomplishments/verify/AJ6QYJFUCFFT",
+      organization: "coursera.org",
+    },
+    {
+      side: "right",
+      title: "Excel Skills for Business: Intermediate II",
+      date: "Sep 2020",
+      link: "https://www.coursera.org/account/accomplishments/verify/T8AMABTB9NWH",
+      organization: "coursera.org",
+    },
+    {
+      side: "left",
+      title: "Excel Skills for Business: Intermediate I",
+      date: "Aug 2020",
+      link: "https://coursera.org/share/d4fe67704c7d2b22e19c38abaf24dd2d",
+      organization: "coursera.org",
+    },
+    {
+      side: "right",
+      title: "Python for Data Science and AI",
+      date: "Apr 2020",
+      link: "https://coursera.org/share/ef38139e4b8108421a5d8f3230526b04",
+      organization: "coursera.org",
+    },
+    {
+      side: "left",
+      title: "Python Data Structures",
+      date: "Mar 2020",
+      link: "https://coursera.org/share/ef38139e4b8108421a5d8f3230526b04",
+      organization: "coursera.org",
+    },
+    {
+      side: "right",
+      title: "Neural Networks and Deep Learning",
+      date: "Jan 2020",
+      link: "https://www.coursera.org/account/accomplishments/verify/NKKXJBHA9WCW",
+      organization: "coursera.org",
+    },
+  ],
+
   projects: [
     {
       tag: "University Projects",

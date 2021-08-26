@@ -120,23 +120,17 @@ export const Resume = () => {
           <span></span>
           <h6 className="section_title_text ">Certifications</h6>
         </Grid>
-        <Grid container>
+        <Grid container className="pt_25 ">
           <Grid item xs={12}>
-            {/* <Timeline2 /> */}
-            <TimelineCer
-              titleRight="titleRight"
-              dateRight="25-08-2021"
-              titleLeft="titleLeft"
-              dateLeft="25-08-2021"
-            />
-            <TimelineCer
-              titleRight="titleRight"
-              dateRight="25-08-2021"
-              titleLeft="titleLeft"
-              dateLeft="25-08-2021"
-            />
-
-            {/* <Timeline2    /> */}
+            {resumeData.certifications.map((cert) => (
+              <TimelineCer
+                side={cert.side}
+                title={cert.title}
+                date={cert.date}
+                organization={cert.organization}
+                link={cert.link}
+              />
+            ))}
           </Grid>
         </Grid>
       </Grid>
