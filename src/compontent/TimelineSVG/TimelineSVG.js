@@ -66,7 +66,7 @@ export default function TimelineCer({ date, title, link, side, organization }) {
                 color="textSecondary"
                 className="timeline_link"
               >
-                See credential on {organization}
+                See Credential on {organization}
               </Link>
             </Typography>
           </Paper>

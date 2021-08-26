@@ -21,6 +21,9 @@
   font-weight: 500 !important;
 }
 
+.timeline .timeline_link {
+  font-size: 13px;
+}
 .timeline .timeline_link:hover {
   color: var(--main-color);
 }
