@@ -16,7 +16,6 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import HomeIcon from "@material-ui/icons/Home";
 import GetAppIcon from "@material-ui/icons/GetApp";
 
-
 import { Link, NavLink, Navlink, withRouter } from "react-router-dom";
 import resumeData from "../../utilis/resumeData";
 import { CustomButton } from "../Button/Button";
@@ -53,13 +52,6 @@ const Header = (props) => {
           >
             Protfolio
           </Nav.Link>
-          {/* <Nav.Link
-            as={NavLink}
-            to="/photogallery"
-            className={pathName == "/photogallery" ? "header_link_active" : "header_link"}
-          >
-            Photo Gallery
-          </Nav.Link> */}
         </Nav>
         <div className="header_right">
           {Object.keys(resumeData.socials).map((key) => (
@@ -68,7 +60,7 @@ const Header = (props) => {
             </a>
           ))}
           <a href={resumeData.downloadCv} target="_blank">
-          <CustomButton text={"Download CV"} icon={<GetAppIcon />} />
+            <CustomButton text={"Download CV"} icon={<GetAppIcon />} />
           </a>
         </div>
       </Navbar.Collapse>

@@ -54,9 +54,9 @@
   margin-bottom: 10px;
 }
 .projectDialog .projectDialog_icon:hover {
-    color: var(--main-color)
-  }
-.projectDialog .projectDialog_icon > .MuiSvgIcon-root{
-    font-size: 30px !important;
+  color: var(--main-color);
+}
+.projectDialog .projectDialog_icon > .MuiSvgIcon-root {
+  font-size: 30px !important;
 }
 /* End of Dialog */

@@ -20,7 +20,7 @@ function App() {
         <Grid item xs>
           <Router>
             <Header />
-            <div className='main_content containeer_shadow'>
+            <div className="main_content containeer_shadow">
               <Switch>
                 <Route path="/portfolio">
                   <Portfolio />

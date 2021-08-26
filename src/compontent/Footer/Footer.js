@@ -13,7 +13,7 @@ export const Footer = () => {
         <Typography className="footer_copyright">
           Designed and Developed by{" "}
           <a href="/" target="_blank">
-          {resumeData.name}
+            {resumeData.name}
           </a>
           <br />
           Clone Idea from{" "}

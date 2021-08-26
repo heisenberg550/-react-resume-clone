@@ -14,11 +14,7 @@ export const ImagesGallery = (props) => {
   });
   return (
     <div>
-      <Gallery
-        items={imageList}
-        showBullets
-        showThumbnails={true}
-        />
+      <Gallery items={imageList} showBullets showThumbnails={true} />
     </div>
   );
 };

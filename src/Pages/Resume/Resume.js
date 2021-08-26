@@ -10,10 +10,8 @@ import "./Resume.css";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
 import TimelineContent from "@material-ui/lab/TimelineContent";
-import School from "@material-ui/icons/School";
 import TimelineDot from "@material-ui/lab/TimelineDot";
-import Timeline2 from "../../compontent/Timeline2/Timeline2";
-import TimelineCer from "../../compontent/Timeline2/TimelineCer";
+import TimelineSVG from "../../compontent/TimelineSVG/TimelineSVG";
 
 export const Resume = () => {
   return (
@@ -123,7 +121,7 @@ export const Resume = () => {
         <Grid container className="pt_25 ">
           <Grid item xs={12}>
             {resumeData.certifications.map((cert) => (
-              <TimelineCer
+              <TimelineSVG
                 side={cert.side}
                 title={cert.title}
                 date={cert.date}

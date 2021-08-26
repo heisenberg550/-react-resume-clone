@@ -110,9 +110,12 @@ export const Portfolio = () => {
           {projectDialog.title}
         </DialogTitle>
         {/* <img src={projectDialog.image} alt="" className="projectDialog_img" /> */}
-        <DialogContent style={{height:"80vh"}}>
+        <DialogContent style={{ height: "80vh" }}>
           {projectDialog.images && (
-            <ImagesGallery images={projectDialog.images} className="projectDialog_img"/>
+            <ImagesGallery
+              images={projectDialog.images}
+              className="projectDialog_img"
+            />
           )}
           <Typography className="projectDialog_description">
             {projectDialog.description}
