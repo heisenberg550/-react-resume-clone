@@ -42,8 +42,7 @@ const Profile = () => {
 
       <figure className="profile_image">
         {/* <img src={profileImage} alt="profile image" /> */}
-        {/* <img src={require("../../assets/images/profile.jpg").default} alt="" /> */}
-        <a href="https://cdn.cosmicjs.com/aa3b8b10-3d24-11ee-be3f-55e1752361d4-profile.JPG"></a>
+        <img src={require("../../assets/images/profile.jpg").default} alt="" />
       </figure>
 
       <div className="profile_information">

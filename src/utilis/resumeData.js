@@ -157,6 +157,21 @@ export default {
 
   projects: [
     {
+      tag: "Next.js",
+      images: [
+        "https://cdn.cosmicjs.com/25ed5100-3d28-11ee-be3f-55e1752361d4-Opera-Snapshot2023-08-17220036ankacargo.com.png",
+      ],
+      title: "Landing page",
+      caption: "Landing page",
+      description: "Landing page",
+      links: [
+        {
+          link: "https://ankacargo.com",
+          icon: <LinkIcon />,
+        },
+      ],
+    },
+    {
       tag: "University Projects",
       images: [
         "https://cdn.cosmicjs.com/f1dc8ed0-3d22-11ee-be3f-55e1752361d4-photo2020-12-2915-48-10.jpg",
@@ -251,21 +266,6 @@ export default {
         {
           link: "https://github.com/heisenberg550/trainingProjects/tree/main/Countdown-Timer",
           icon: <GitHubIcon />,
-        },
-      ],
-    },
-    {
-      tag: "Next.js",
-      images: [
-        "https://cdn.cosmicjs.com/25ed5100-3d28-11ee-be3f-55e1752361d4-Opera-Snapshot2023-08-17220036ankacargo.com.png",
-      ],
-      title: "Landing page",
-      caption: "Landing page",
-      description: "Landing page",
-      links: [
-        {
-          link: "https://ankacargo.com",
-          icon: <LinkIcon />,
         },
       ],
     },
