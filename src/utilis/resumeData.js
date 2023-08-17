@@ -6,12 +6,11 @@ import LinkIcon from "@material-ui/icons/Link";
 
 export default {
   name: "Rayan Alrouh",
-  title: "FrontEnd Developer",
+  title: "Software Developer",
 
   email: "rayan.alrouh@outlook.com",
-  address: "Bağcılar, İstanbul",
-  phone: "+905396713723",
-  adress: "Bağcılar, İstanbul",
+  address: "Abu Dhabi, UAE",
+  phone: "+971 56 759 8297",
   downloadCv:
     "https://www.dropbox.com/s/8v8d4r2n8ey617d/Rayan%20ALROUH%20-%20Resume.pdf?dl=0",
 
@@ -160,9 +159,9 @@ export default {
     {
       tag: "University Projects",
       images: [
-        "https://i.ibb.co/F3mhZWM/photo-2020-12-29-15-48-10.jpg",
-        "https://i.ibb.co/Ptc9gdx/photo-2020-12-28-21-18-32.jpg",
-        "https://i.ibb.co/Nr8rQ62/photo-2020-12-27-14-27-10.jpg",
+        "https://cdn.cosmicjs.com/f1dc8ed0-3d22-11ee-be3f-55e1752361d4-photo2020-12-2915-48-10.jpg",
+        "https://cdn.cosmicjs.com/037ffae0-3d24-11ee-be3f-55e1752361d4-20201218143051.jpg",
+        "https://cdn.cosmicjs.com/046096e0-3d24-11ee-be3f-55e1752361d4-20201214190119.jpg",
       ],
       title: "Self balancing robot",
       caption: "Arduino based self balancing robot",
@@ -178,9 +177,10 @@ export default {
     {
       tag: "University Projects",
       images: [
-        "https://i.ibb.co/944F3Fj/1.jpg",
-        "https://i.ibb.co/F89wYQ4/2.jpg",
-        "https://i.ibb.co/LSY1kNW/3.jpg",
+        "https://cdn.cosmicjs.com/af5fd620-3d22-11ee-be3f-55e1752361d4-1.jpg",
+        "https://cdn.cosmicjs.com/af8a6890-3d22-11ee-be3f-55e1752361d4-2.jpg",
+        "https://cdn.cosmicjs.com/af4e22e0-3d22-11ee-be3f-55e1752361d4-3.jpg",
+        "https://cdn.cosmicjs.com/044a28b0-3d24-11ee-be3f-55e1752361d4-20190516095041.jpg",
       ],
       title: "IoT Garden",
       caption:
@@ -192,11 +192,9 @@ export default {
     {
       tag: "University Projects",
       images: [
-        "https://i.ibb.co/DffNyTs/Annotation-2021-08-22-224435.png",
-        "https://i.ibb.co/f2Mbn1R/Annotation-2021-08-22-224614.png",
-        "https://i.ibb.co/kJ2whfy/Annotation-2021-08-22-224631.png",
-        "https://i.ibb.co/8ccjDCq/Annotation-2021-08-22-224648.png",
-        "https://i.ibb.co/34yvQg5/Annotation-2021-08-22-224739.png",
+        "https://cdn.cosmicjs.com/8a382be0-3d27-11ee-be3f-55e1752361d4-Annotation-2021-08-22-224435.png",
+        "https://cdn.cosmicjs.com/8a231d40-3d27-11ee-be3f-55e1752361d4-Annotation-2021-08-22-224631.png",
+        "https://cdn.cosmicjs.com/89d7e370-3d27-11ee-be3f-55e1752361d4-Annotation-2021-08-22-224614.png",
       ],
       title: "Abnormal Heart Sounds Detector",
       caption:
@@ -213,7 +211,7 @@ export default {
     {
       tag: "React",
       images: [
-        "https://i.ibb.co/FWr7QHk/Annotation-2021-08-22-231400.png",
+        "https://cdn.cosmicjs.com/89d6aaf0-3d27-11ee-be3f-55e1752361d4-Annotation-2021-08-22-231400.png",
       ],
       title: "Resume Web Page",
       caption: "Single Page Application",
@@ -228,8 +226,8 @@ export default {
     {
       tag: "React",
       images: [
-        "https://i.ibb.co/zfM9Svx/Annotation-2021-08-22-234126.png",
-        "https://i.ibb.co/2hb0sPV/Annotation-2021-08-22-234236.png",
+        "https://cdn.cosmicjs.com/89dd3aa0-3d27-11ee-be3f-55e1752361d4-Annotation-2021-08-22-234126.png",
+        "https://cdn.cosmicjs.com/89dd3aa0-3d27-11ee-be3f-55e1752361d4-Annotation-2021-08-22-234126.png",
       ],
       title: "Photo Gallery",
       caption: "Photo Gallery by React",
@@ -244,7 +242,7 @@ export default {
     {
       tag: "JavaScript",
       images: [
-        "https://i.ibb.co/Gkw4JX5/Annotation-2021-08-22-232757.png",
+        "https://cdn.cosmicjs.com/8a36cc50-3d27-11ee-be3f-55e1752361d4-Annotation-2021-08-22-232757.png",
       ],
       title: "CountDown Timer",
       caption: "CountDown Timer",
@@ -253,6 +251,21 @@ export default {
         {
           link: "https://github.com/heisenberg550/trainingProjects/tree/main/Countdown-Timer",
           icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: "Next.js",
+      images: [
+        "https://cdn.cosmicjs.com/25ed5100-3d28-11ee-be3f-55e1752361d4-Opera-Snapshot2023-08-17220036ankacargo.com.png",
+      ],
+      title: "Landing page",
+      caption: "Landing page",
+      description: "Landing page",
+      links: [
+        {
+          link: "https://ankacargo.com",
+          icon: <LinkIcon />,
         },
       ],
     },
