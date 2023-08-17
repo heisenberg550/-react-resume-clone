@@ -11,6 +11,7 @@ export default {
   email: "rayan.alrouh@outlook.com",
   address: "Abu Dhabi, UAE",
   phone: "+971 56 759 8297",
+  adress: "Abu Dhabi, UAE",
   downloadCv:
     "https://www.dropbox.com/s/8v8d4r2n8ey617d/Rayan%20ALROUH%20-%20Resume.pdf?dl=0",
 

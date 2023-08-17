@@ -42,7 +42,7 @@ const Profile = () => {
 
       <figure className="profile_image">
         {/* <img src={profileImage} alt="profile image" /> */}
-        {/* <img src={require("../../assets/images/profile.jpg").default} alt="" /> */}
+        <img src={require("../../assets/images/profile.jpg").default} alt="" />
       </figure>
 
       <div className="profile_information">
